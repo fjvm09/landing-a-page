@@ -1,0 +1,51 @@
+.header, .top, .footer {
+    background-color: #1f2937;
+}
+.container, button {
+    background-color: #3882f6;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.text-title, a {
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.subtitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.center-bot {
+    background-color: #e5e7eb;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quoted {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.text {
+    font-size: small;
+}
+img {
+    max-width: 200px;
+}
+.crew {
+    border: 5px solid black;
+}
