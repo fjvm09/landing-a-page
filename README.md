@@ -1,1 +1,2 @@
-Im so fkin scared but lets do this thing
+I'll use this page to practice, and the theme will be the Straw-Hat Pirates, from my favorite manga.
+I don't own any of the images or content of the website, all credits go to Oda for his fantastic creations.
