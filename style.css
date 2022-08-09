@@ -48,6 +48,7 @@ ul {
 }
 .text {
     font-size: small;
+    text-align: center;
 }
 img {
     max-width: 200px;
@@ -57,12 +58,17 @@ img {
     border: 5px solid black;
     border-radius: 25px;
     padding: 10px;
+    max-width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 100px;
 }
 
 body {
@@ -73,7 +79,23 @@ body {
 
 .top {
     display: flex;
-    padding:10px;
+    padding:10px 100px;
     justify-content: center;
     gap: 25px;
+}
+
+.center-top {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    max-width: fit-content;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
