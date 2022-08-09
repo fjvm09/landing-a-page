@@ -3,13 +3,15 @@
 }
 .container, button {
     background-color: #3882f6;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 10px;
+    color: white;
 }
 .title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    align-self: flex-start;
 }
 
 .text-title, a {
@@ -35,6 +37,10 @@ ul {
 }
 .center-bot {
     background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column;
+    padding: 50px 100px;
+    flex: 1 0 auto;
 }
 .quote {
     font-size: 36px;
@@ -69,19 +75,23 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 10px 100px;
+    flex-shrink: 0;
 }
 
 body {
     display: flex;
     flex-flow: column;
     margin:0px;
+    min-height: 100vh;
 }
 
 .top {
     display: flex;
-    padding:10px 100px;
-    justify-content: center;
+    padding:30px 100px;
+    justify-content: space-between;
     gap: 25px;
+    align-items: stretch;
+    flex: 1 0 auto;
 }
 
 .center-top {
@@ -91,6 +101,7 @@ body {
     align-items: center;
     padding: 30px 100px;
     max-width: fit-content;
+    flex: 1 0 auto;
 }
 
 .box {
@@ -98,4 +109,37 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.img1 {
+    max-width: 50%;
+    max-height: 200px;
+}
+
+.sign-bot{
+    padding: 50px 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    flex-shrink: 0;
+}
+
+.sign-top-left{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.title-bot{
+    font-size: 24px;
+    font-weight: bold;
 }
